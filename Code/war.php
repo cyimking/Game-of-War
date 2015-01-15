@@ -2,7 +2,7 @@
 require "includes/Constants.php";
 require "includes/ClassWar.php";
 
-if(isset($_POST['submit'])){
+if(isset($_POST['fileName']) && !empty($_POST['fileName'])){
 
 $war = new War;
 
@@ -30,7 +30,7 @@ $war->displayWinner($newfile);
 
 fclose($newfile);
 
-die("Play Again? <a href='index.php'>Yes!</a>");
+die("<br>Play Again? <a href='index.php'>Yes!</a>");
 
 
 }
