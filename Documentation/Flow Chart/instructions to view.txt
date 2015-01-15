@@ -1,0 +1,8 @@
+How to view:
+- Go to https://www.draw.io/
+- Open 
+- Chose the war.xml file
+
+
+Note:
+- I am working on making it look neater and more fluid. 
