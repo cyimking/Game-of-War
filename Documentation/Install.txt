@@ -1,0 +1,3 @@
+How to install:
+- Upload all the files from the code directory onto your directory. You must have the latest
+version of PHP for the scripts to work.
